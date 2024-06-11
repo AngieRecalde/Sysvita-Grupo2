@@ -2,6 +2,7 @@ from utils.db import db
 from dataclasses import dataclass
 from sqlalchemy import Date
 
+
 @dataclass
 class Especialistas(db.Model):
     __tablename__ = 'especialistas'

@@ -3,6 +3,7 @@ from model.tests import Tests
 from model.especialistas import Especialistas
 from sqlalchemy import Date
 
+
 class Evaluaciones(db.Model):
     __tablename__ = 'evakuaciones'
 

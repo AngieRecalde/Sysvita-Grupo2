@@ -2,6 +2,7 @@ from utils.db import db
 from model.evaluaciones import Evaluaciones
 from sqlalchemy import Date
 
+
 class Retroalimentacion(db.Model):
     __tablename__ = 'retroalimentacion'
     

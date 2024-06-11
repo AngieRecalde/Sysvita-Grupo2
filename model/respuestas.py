@@ -1,6 +1,7 @@
 from utils.db import db
 from model.preguntas import Preguntas
 
+
 class Respuestas(db.Model):
     __tablename__ = 'respuestas'
 

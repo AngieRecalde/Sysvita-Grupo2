@@ -1,4 +1,4 @@
-﻿aniso8601==9.0.1
+aniso8601==9.0.1
 blinker==1.7.0
 click==8.1.7
 colorama==0.4.6
@@ -9,10 +9,12 @@ flask-marshmallow==1.2.1
 Flask-RESTful==0.3.10
 Flask-SQLAlchemy==3.1.1
 greenlet==3.0.3
+gunicorn==22.0.0
 itsdangerous==2.1.2
 Jinja2==3.1.3
 MarkupSafe==2.1.5
 marshmallow==3.21.3
+marshmallow-sqlalchemy==1.0.0
 packaging==24.1
 platformdirs==4.2.0
 psycopg2==2.9.9
@@ -23,4 +25,3 @@ SQLAlchemy==2.0.30
 typing_extensions==4.12.2
 virtualenv==20.25.1
 Werkzeug==3.0.2
-gunicorn==20.1.0

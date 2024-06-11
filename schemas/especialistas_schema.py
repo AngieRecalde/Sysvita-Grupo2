@@ -2,6 +2,7 @@ from utils.ma import ma
 from model.especialistas import Especialistas
 from marshmallow import fields
 
+
 class EspecialistasSchema(ma.Schema):
     class Meta:
         model = Especialistas

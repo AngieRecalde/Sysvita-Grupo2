@@ -2,6 +2,7 @@ from utils.db import db
 from model.estudiantes import Estudiantes
 from sqlalchemy import Date
 
+
 class Tests (db.Model):
     __tablename__ = 'tests'
     id_test=db.Column(db.Integer, primary_key=True) 

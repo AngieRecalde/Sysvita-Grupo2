@@ -1,8 +1,7 @@
+
 from sqlalchemy import DateTime
 from utils.db import db
 from dataclasses import dataclass
-
-
 @dataclass
 class Especialistas(db.Model):
     __tablename__ = 'especialistas'

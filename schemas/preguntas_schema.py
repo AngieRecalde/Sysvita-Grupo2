@@ -1,11 +1,11 @@
 from utils.ma import ma
 from model.preguntas import Preguntas
 from marshmallow import fields
-from schemas.test_schema import TestSchema
+from schemas.tests_schema import TestsSchema
 class PreguntasSchema(ma.Schema):
     class Meta:
         model = Preguntas
-        fields = ('id_pregunta','id_test','enunciado','tipo_escala','numero_pregunta')
-    tests = ma.Nested(TestSchema)    
+        fields = ('id_pregunta','id_test','text_pregunta','orden')
+    tests1 = ma.Nested(TestsSchema)    
 pregunta_schema = PreguntasSchema()
 preguntas_schema = PreguntasSchema(many=True)
